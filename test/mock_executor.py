@@ -20,10 +20,7 @@ class MockExecutor(AgentExecutor):
 
     @staticmethod
     def execute(command: State, agent: Agent) -> Action:
-        action = agent.execute(command)
-        if not action:
-            action = Action()
-        return action
+        return agent.execute(command) or Action()
 
 
 class MockAgentDatasourceExecutor(AgentDatasourceExecutor):

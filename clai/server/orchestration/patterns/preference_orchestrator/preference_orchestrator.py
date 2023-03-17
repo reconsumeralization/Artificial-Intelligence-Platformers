@@ -55,23 +55,15 @@ class PreferenceOrchestrator(Orchestrator):
         cache_candidates = sorted(cache_candidates, key=lambda x: x[1], reverse=True)
 
         for candidate in cache_candidates:
-            # pass through all preferences and pick the candidate with
-            # the highest confidence not violating any preference
-            send_flag = True
-
-            for preference in self.preferences:
-                if candidate[0].agent_owner == preference[1]:
-                    if preference[0] in [item[0].agent_owner for item in cache_candidates]:
-                        send_flag = False
-                        break
-
+            send_flag = not any(
+                candidate[0].agent_owner == preference[1]
+                and preference[0]
+                in [item[0].agent_owner for item in cache_candidates]
+                for preference in self.preferences
+            )
             if send_flag:
                 return candidate[0]
 
         if force_response:
-            if cache_candidates:
-                return cache_candidates[0][0]
-
-            return None
-
+            return cache_candidates[0][0] if cache_candidates else None
         return None

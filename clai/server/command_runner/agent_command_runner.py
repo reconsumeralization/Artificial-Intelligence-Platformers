@@ -24,10 +24,12 @@ class AgentCommandRunner(CommandRunner, PostCommandRunner):
         self.force_agent = None
 
     def execute(self, state: State) -> Union[Action, List[Action]]:
-        action = self.agent_runner.process(state, self.ignore_threshold, self.force_agent)
-        if not action:
-            action = Action()
-        return action
+        return (
+            self.agent_runner.process(
+                state, self.ignore_threshold, self.force_agent
+            )
+            or Action()
+        )
 
     def execute_post(self, state: State) -> Action:
         action = self.agent_runner.process_post(state, self.ignore_threshold)

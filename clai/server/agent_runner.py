@@ -62,14 +62,16 @@ class AgentRunner:
         agent_names = [agent.agent_name for agent in agent_list]
 
         orchestrator = self.orchestrator_provider.get_current_orchestrator()
-        suggested_command = orchestrator.choose_action(
-            command=command, agent_names=agent_names, candidate_actions=candidate_actions,
-            force_response=force_response, pre_post_state=pre_post_state)
-
-        if not suggested_command:
-            suggested_command = Action()
-
-        return suggested_command
+        return (
+            orchestrator.choose_action(
+                command=command,
+                agent_names=agent_names,
+                candidate_actions=candidate_actions,
+                force_response=force_response,
+                pre_post_state=pre_post_state,
+            )
+            or Action()
+        )
 
     def process(self,
                 command: State,

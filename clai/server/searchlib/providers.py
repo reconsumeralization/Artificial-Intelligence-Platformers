@@ -26,10 +26,10 @@ class Provider:
         self.description = description
 
         api_value: str = section.get("api")
-        self.base_uri = api_value if api_value.endswith("/") else api_value + "/"
+        self.base_uri = api_value if api_value.endswith("/") else f"{api_value}/"
 
         # Get the platform exclusion list, in lowercase if possible
-        if "exclude" in section.keys():
+        if "exclude" in section:
             self.excludes = [
                 excludeTarget.lower()
                 for excludeTarget in section.get("exclude").split()
@@ -38,7 +38,7 @@ class Provider:
             self.excludes = []
 
         # Get the ordered list of variant searches:
-        if "variants" in section.keys():
+        if "variants" in section:
             self.variants = [
                 variant.upper() for variant in section.get("variants").split()
             ]
@@ -83,9 +83,8 @@ class Provider:
             output.append(".--[Headers]".ljust(80, "-"))
             for key in data.headers.keys():
 
-                if key == "Content-Type":
-                    if "/json" in data.headers[key]:
-                        is_json_data = True
+                if key == "Content-Type" and "/json" in data.headers[key]:
+                    is_json_data = True
 
                 line_header = f"|    {key}: "
                 print_data: str = str(data.headers[key])
@@ -111,7 +110,7 @@ class Provider:
         self.__log_info__("\n\t".join(output))
 
     def __set_default_values__(self, args: dict, **kwargs) -> dict:
-        for key in kwargs.keys():
+        for key in kwargs:
             if key not in args:
                 args[key] = kwargs[key]
 
