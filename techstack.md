@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 reconsumeralization/Artificial-Intelligence-Platformers is built on the following main stack:
+
 - [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
 - [Python](https://www.python.org) – Languages
 - [NumPy](http://www.numpy.org/) – Data Science Tools
@@ -17,11 +18,13 @@ reconsumeralization/Artificial-Intelligence-Platformers is built on the followin
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 reconsumeralization/Artificial-Intelligence-Platformers is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
@@ -37,14 +40,15 @@ reconsumeralization/Artificial-Intelligence-Platformers is built on the followin
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [reconsumeralization/Artificial-Intelligence-Platformers](https://github.com/reconsumeralization/Artificial-Intelligence-Platformers)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|24<br/>Tools used|11/09/23 <br/>Report generated|
+|24<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -216,15 +220,15 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[astroid](https://pypi.org/astroid)|v2.2.5|09/14/20|DANFITZ |LGPL-2.1|N/A|
-|[beautifulsoup4](https://pypi.org/beautifulsoup4)|N/A|01/28/20|Jorge Juan Barroso Carmona |MIT|N/A|
-|[pluggy](https://pypi.org/pluggy)|N/A|09/23/20|Daniel J FitzGerald |MIT|N/A|
-|[pydantic](https://pypi.org/pydantic)|v0.27|01/28/20|Jorge Juan Barroso Carmona |MIT|[CVE-2021-29510](https://github.com/advisories/GHSA-5jqp-qgf6-3pvh) (Low)|
-|[pytest-mock](https://pypi.org/pytest-mock)|v1.10.4|09/14/20|DANFITZ |MIT|N/A|
-|[requests](https://pypi.org/requests)|v2.22.0|06/11/20|Tathagata Chakraborti |Apache-2.0|[CVE-2023-32681](https://github.com/advisories/GHSA-j8r2-6x86-q33q) (Moderate)|
-|[spacy](https://pypi.org/spacy)|N/A|03/12/20|Kshitij Fadnis |MIT|N/A|
+|[astroid](https://pypi.org/project/astroid)|v2.2.5|09/14/20|DANFITZ |LGPL-2.1|N/A|
+|[beautifulsoup4](https://pypi.org/project/beautifulsoup4)|N/A|01/28/20|Jorge Juan Barroso Carmona |MIT|N/A|
+|[pluggy](https://pypi.org/project/pluggy)|N/A|09/23/20|Daniel J FitzGerald |MIT|N/A|
+|[pydantic](https://pypi.org/project/pydantic)|v0.27|01/28/20|Jorge Juan Barroso Carmona |MIT|[CVE-2021-29510](https://github.com/advisories/GHSA-5jqp-qgf6-3pvh) (Low)|
+|[pytest-mock](https://pypi.org/project/pytest-mock)|v1.10.4|09/14/20|DANFITZ |MIT|N/A|
+|[requests](https://pypi.org/project/requests)|v2.22.0|06/11/20|Tathagata Chakraborti |Apache-2.0|[CVE-2023-32681](https://github.com/advisories/GHSA-j8r2-6x86-q33q) (Moderate)|
+|[spacy](https://pypi.org/project/spacy)|N/A|03/12/20|Kshitij Fadnis |MIT|N/A|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
