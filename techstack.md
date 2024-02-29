@@ -3,19 +3,19 @@
 ## Tech Stack
 reconsumeralization/Artificial-Intelligence-Platformers is built on the following main stack:
 
-- [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
 - [Python](https://www.python.org) – Languages
-- [NumPy](http://www.numpy.org/) – Data Science Tools
-- [Pillow](https://python-pillow.github.io/) – Image Processing and Management
-- [Matplotlib](http://matplotlib.org) – Charting Libraries
-- [Docker Compose](https://github.com/docker/compose) – Container Tools
-- [pytest](http://pytest.org/latest/) – Testing Frameworks
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [Pylint](https://www.pylint.org/) – Code Review
-- [Bash-My-AWS](https://bash-my-aws.org/) – AWS Tools
 - [Flask](http://flask.pocoo.org/) – Microframeworks (Backend)
+- [Matplotlib](http://matplotlib.org) – Charting Libraries
+- [Bash-My-AWS](https://bash-my-aws.org/) – AWS Tools
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Docker Compose](https://github.com/docker/compose) – Container Tools
+- [Pylint](https://www.pylint.org/) – Code Review
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [pytest](http://pytest.org/latest/) – Testing Frameworks
+- [Pillow](https://python-pillow.github.io/) – Image Processing and Management
+- [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- [NumPy](http://www.numpy.org/) – Data Science Tools
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -25,19 +25,19 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 reconsumeralization/Artificial-Intelligence-Platformers is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg' alt='Pillow'/> [Pillow](https://python-pillow.github.io/) – Image Processing and Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'/> [Matplotlib](http://matplotlib.org) – Charting Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/3136/docker-compose.png' alt='Docker Compose'/> [Docker Compose](https://github.com/docker/compose) – Container Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/4837/py.jpg' alt='Pylint'/> [Pylint](https://www.pylint.org/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/11642/no-img.png' alt='Bash-My-AWS'/> [Bash-My-AWS](https://bash-my-aws.org/) – AWS Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png' alt='Flask'/> [Flask](http://flask.pocoo.org/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'/> [Matplotlib](http://matplotlib.org) – Charting Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/11642/no-img.png' alt='Bash-My-AWS'/> [Bash-My-AWS](https://bash-my-aws.org/) – AWS Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/3136/docker-compose.png' alt='Docker Compose'/> [Docker Compose](https://github.com/docker/compose) – Container Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/4837/py.jpg' alt='Pylint'/> [Pylint](https://www.pylint.org/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg' alt='Pillow'/> [Pillow](https://python-pillow.github.io/) – Image Processing and Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -48,7 +48,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [reconsumeralization/Artificial-Intelligence-Platformers](https://github.com/reconsumeralization/Artificial-Intelligence-Platformers)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|24<br/>Tools used|01/05/24 <br/>Report generated|
+|24<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
