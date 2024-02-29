@@ -2,7 +2,7 @@ repo_name: reconsumeralization/Artificial-Intelligence-Platformers
 report_id: 07a4b3c5f055f365b097e5b45b9ce3d0
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:17:07+00:00'
+timestamp: '2024-02-29T18:12:27+00:00'
 requested_by: MayankAgarwal
 provider: github
 branch: master
@@ -46,7 +46,7 @@ tools:
   last_updated_by: Madhavan Pallan
   last_updated_on: 2020-06-11 04:44:19.000000000 Z
 - name: Bash-My-AWS
-  description: 'CLI Commands for AWS '
+  description: CLI Commands for AWS
   website_url: https://bash-my-aws.org/
   license: MIT
   open_source: true
